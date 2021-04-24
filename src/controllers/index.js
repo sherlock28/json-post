@@ -1,7 +1,7 @@
 module.exports = {
   getAllPost: require("./getAllPost.ctrl"),
-  getPost: require("./getPost"),
-  savePost: require("./savePost"),
-  updatePost: require("./updatePost"),
-  deletePost: require("./deletePost"),
+  getPost: require("./getPost.ctrl"),
+  savePost: require("./savePost.ctrl"),
+  updatePost: require("./updatePost.ctrl"),
+  deletePost: require("./deletePost.ctrl"),
 };
