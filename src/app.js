@@ -12,6 +12,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 // routes
-app.use("/posts", require("./routes"));
+app.use("/api/posts", require("./routes"));
 
 module.exports = app;

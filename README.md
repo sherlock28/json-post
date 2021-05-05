@@ -1,4 +1,47 @@
-## Runs the app
-### `npm start` 
+# API JSON-POSTS 2021
+
+Rest API built with Express JS, which returns json with post examples.
+
+## To run the app use
+
+### `npm install`
+
+### `npm start`
 
 Open [http://localhost:3100](http://localhost:3100)
+
+### Endpoints
+
+- **[GET]** **http://localhost:3100/api/posts**
+- **[GET]** **http://localhost:3100/api/posts/:id**
+- **[POST]** **http://localhost:3100/api/posts**
+- **[PUT]** **http://localhost:3100/api/posts/:id**
+- **[DELETE]** **http://localhost:3100/api/posts**
+
+### Data input and output formats
+
+- JSON contract used to create a post:
+
+  - `{`
+    `"userId":` `1,`
+    `"title":` `"email-example",`
+    `"body":` `"password-example",`
+    `}`
+
+- JSON contract returned:
+  - `{`
+    `"userId":` `1,`
+    `"id":` `"1",`
+    `"title":` `"email-example",`
+    `"body":` `"password-example",`
+    `}`
+
+
+## Built with
+- Node.js
+- Express.js
+
+## Aplicación
+
+The application is deployed in:
+[JSON-POSTS](https://posts-json.herokuapp.com/posts)
