@@ -4,9 +4,13 @@ Rest API built with Express JS, which returns json with post examples.
 
 ## To run the app use
 
-### `npm install`
+```
+npm install
+```
 
-### `npm start`
+```
+npm start
+```
 
 Open [http://localhost:3100](http://localhost:3100)
 
