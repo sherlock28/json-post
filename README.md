@@ -4,7 +4,7 @@ Rest API built with Express JS, which returns json with post examples.
 
 ## To run the app use
 
-```script
+```
 npm install
 ```
 
@@ -15,7 +15,7 @@ npm start
 Open [http://localhost:3100](http://localhost:3100)
 
 ### Endpoints
-```json
+```
 - **[GET]** **http://localhost:3100/api/posts**
 - **[GET]** **http://localhost:3100/api/posts/:id**
 - **[POST]** **http://localhost:3100/api/posts**
