@@ -16,11 +16,11 @@ Open [http://localhost:3100](http://localhost:3100)
 
 ### Endpoints
 ```
-- **[GET]** **http://localhost:3100/api/posts**
-- **[GET]** **http://localhost:3100/api/posts/:id**
-- **[POST]** **http://localhost:3100/api/posts**
-- **[PUT]** **http://localhost:3100/api/posts/:id**
-- **[DELETE]** **http://localhost:3100/api/posts**
+- [GET]    http://localhost:3100/api/posts
+- [GET]    http://localhost:3100/api/posts/:id
+- [POST]   http://localhost:3100/api/posts
+- [PUT]    http://localhost:3100/api/posts/:id
+- [DELETE] http://localhost:3100/api/posts
 ```
 
 ### Data input and output formats
