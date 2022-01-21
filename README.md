@@ -50,7 +50,7 @@ Open [http://localhost:3100](http://localhost:3100)
 - Node.js
 - Express.js
 
-## Aplicación
+## Aplication
 
 The application is deployed in:
 [JSON-POSTS](https://posts-json.herokuapp.com/api/posts)
